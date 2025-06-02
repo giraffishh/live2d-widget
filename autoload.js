@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://blog.jsdmirror.com/gh/uiureir/live2d-widget@master/";
+const live2d_path = "https://hexo-blog-netlify.oss-cn-shenzhen.aliyuncs.com/live2d-widget/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -36,7 +36,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://blog.jsdmirror.com/gh/uiureir/live2d_api@master/",
+			cdnPath: "https://hexo-blog-netlify.oss-cn-shenzhen.aliyuncs.com/live2d_api/",
 			tools: ["hitokoto", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
